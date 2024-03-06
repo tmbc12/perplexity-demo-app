@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import Sidebar from "@/components/Sidebar/Sidebar";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,9 +13,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="flex gap-8 p-5">
+    <div className="flex gap-8 p-5 bg-black">
       <Sidebar />
-      <div className={inter.className} style={{ flex: 1 }}>
+      <div className='flex-1'>
         {children}
       </div>
     </div>

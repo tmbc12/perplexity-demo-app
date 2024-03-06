@@ -13,7 +13,7 @@ const input = () => {
                     placeholder='Search'
                     className=' bg-transparent border-none text-white outline-none'
                 />
-                <Button variant="outline" className=' rounded-full text-bolder'>
+                <Button variant="outline" className=' rounded-full text-bolder '>
                     <span><Sparkles /></span>
                     <span className=' text-lg font-bold ml-2'>Shop</span>
                 </Button>
