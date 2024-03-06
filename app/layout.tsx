@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="flex gap-8 p-5 bg-black">
+    <div className="flex gap-8 p-5">
       <Sidebar />
       <div className={inter.className} style={{ flex: 1 }}>
         {children}
